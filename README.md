@@ -14,3 +14,11 @@ Furthermore, you also have to change the parameters in the settings.ts file in f
 * service - the base URI pointing to your API
 * clientId - the Application ID from the B2C directory
 * authority - authority setting for MSAL
+
+Running the frontend application:
+
+* got to the *frontend* directory
+* run ´npm install -g aurelia-cli@latest´ (Aurelia Command Line Interface)
+* run ´npm install´ (to install the project dependencies)
+* run ´au run --watch´
+* open your browser pointing to: http://localhost:9000
